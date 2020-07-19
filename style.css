@@ -1,0 +1,49 @@
+.body, html {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(47, 75, 233);
+}
+
+#container {
+    background-color: lightblue;
+    padding: 12px 12px;
+    text-align: center;
+    border-radius: 35px 35px 0px 35px;
+}
+
+#links  {
+    background-color: lightcyan;
+    border-radius: 20px;
+    padding: 5px 5px;
+    text-align: center;
+}
+
+#first {
+    width: 100%;
+    height: 100%;
+}
+
+#attention {
+    font-size: 35px;
+    font-weight: 50px;
+    color: orangered;
+}
+
+img:not(#first) {
+    position: relative;
+    border-radius: 50px;
+    width: 100%;
+    height: 100%;
+}
+
+#maths {
+    position: 25% 5px;
+}
+
+h2 {
+    color: rgb(18, 14, 235);
+}
+
+#navigation {
+    background-color: black;
+}
